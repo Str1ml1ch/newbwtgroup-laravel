@@ -38,6 +38,12 @@ div[id=ee]
   left: 40%;
   top: 50%;
 }
+  h1[id = res]
+  {
+    position: absolute;
+    top: 60%;
+    left: 23%;
+  }
 </style>
 <body>
   <div class="text-center">
@@ -72,6 +78,9 @@ div[id=ee]
 
     <button type="sumbit" class="btn btn-outline-success" name="sendfeed">Оставить отзыв</button>
   </form>
+    <h1 id="res">
+      {{$result}}
+    </h1>
 </div>
   @if($errors->any())
     <div id="ee">

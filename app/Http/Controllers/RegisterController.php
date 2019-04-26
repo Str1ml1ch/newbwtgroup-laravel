@@ -13,11 +13,13 @@ class RegisterController extends Controller
 {
     public function show(CreateValidation $request)
     {
-        $err = '';
-        if (Auth::check() == true) {
+        if (Auth::check() == true)
+        {
             return redirect()->route('weather');
         }
-            if ($request->isMethod('post')) {
+        $err = NULL;
+            if ($request->isMethod('post'))
+            {
                 $array = $request->except('regbut');
                 $useri = new User();
                 $useri->Name = $array['regname'];
@@ -27,12 +29,15 @@ class RegisterController extends Controller
                 $useri->Gender = $array['regsel'];
                 $useri->Password = $array['regpassword'];
                 $useri->remember_token = $array['_token'];
-                if ($array['regpassword'] == $array['regrepassword']) {
+                if ($array['regpassword'] == $array['regrepassword'])
+                {
                     $useri->save();
                     $err = "Всё отлично, ".$useri->Name.". Вы успешно зарегестрировались!";
-                } else {
-                    $err = "Ваши пароли не совпадают";
                 }
+                else
+                    {
+                    $err = "Ваши пароли не совпадают";
+                    }
             }
 
             return view('registr', ['title' => 'Регистрация', 'Registration' => 'active','er'=>$err]);

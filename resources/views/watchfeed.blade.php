@@ -22,14 +22,12 @@
 	<td>Время</td>
 </tr>
 		@foreach($showfeed as $result)
-			@if($result->id!='')
 		<tr>
-			<td>{{$result->id}}</td>
+			<td><a href="/{{'watchfeed.'.$result->id}}">{{$result->id}}</a></td>
 			<td id="ds">{{$result->feedback}}</td>
 			<td>{{$result->name}}</td>
 			<td>{{$result->created_at}}</td>
 		</tr>
-			@endif
 			@endforeach
 	</table>
 	@endif

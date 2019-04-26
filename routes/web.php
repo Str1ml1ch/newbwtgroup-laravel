@@ -25,7 +25,10 @@ Route::get('/weather',['uses'=>'WeatherController@show','as'=>'weather']);
 
 Route::match(['get','post'],'/feedback',['uses'=>'SendfeedController@show','as'=>'parsing']);
 
-Route::get('/watchfeed',['uses'=>'WatchFeedController@show','as'=>'watchfeed']);
+Route::get('watchfeed.{id?}',['uses'=>'WatchFeedController@show','as'=>'watchfeed'],function ()
+{
+    return redirect()->route('watchfeed');
+});
 
 Route::get('/exit',['uses'=>'ExitController@show','as'=>'exit']);
 

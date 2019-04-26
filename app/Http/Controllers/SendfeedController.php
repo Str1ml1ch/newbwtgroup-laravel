@@ -11,7 +11,9 @@ class SendFeedController extends Controller
 
     public function show(CreateValidationRequest $request)
     {
-        if($request->isMethod('post')) {
+        $result = NULL;
+        if($request->isMethod('post'))
+        {
             $array = $request->except('_token', 'sendfeed');
             $sendfeed = new Feedback;
             $sendfeed->name = $array['sendname'];
@@ -19,8 +21,9 @@ class SendFeedController extends Controller
             $sendfeed->email = $array['sendmail'];
             $sendfeed->feedback = $array['feedb'];
             $sendfeed->save();
+            $result = "Спасибо ".$sendfeed->name.", Ваш отзыв успешно принят!!!!";
         }
-    return view('sendfeed',['title'=>'Отправка отзыва']);
+    return view('sendfeed',['title'=>'Отправка отзыва','result'=>$result]);
     }
 
 }
