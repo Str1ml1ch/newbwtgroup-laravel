@@ -15,9 +15,7 @@ Auth::routes(['register' => true]);
 
 
 
-//Route::match(['get','post'],'/',['uses'=>'RegisterController@show','as'=>'registration']);
-Route::post('/',['uses'=>'RegisterController@show','as'=>'registration']);
-Route::get('/',['uses'=>'RegisterController@show','as'=>'registration']);
+Route::match(['get','post'],'/',['uses'=>'RegisterController@show','as'=>'registration']);
 
 Route::match(['get','post'],'/entersite',['uses'=>'EnterController@show','as'=>'entertosite',['middleware' =>[ 'web']]]);
 

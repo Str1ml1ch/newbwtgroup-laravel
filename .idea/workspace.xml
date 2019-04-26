@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea62acda-b6ad-41f1-8a09-f4ed5c55b91f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EnterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EnterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SendfeedController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SendfeedController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WatchFeedcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WatchFeedcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WatchfeedController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WatchfeedController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WeatherController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WeatherController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sendfeed.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sendfeed.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/watchfeed.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/watchfeed.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/watchidfeed.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+              <folding>
+                <element signature="e#8#21#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,15 +112,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/enter.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="65" column="10" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExitController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -157,7 +152,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_04_24_103517_main.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/resources/views/whatchidfeed.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/watchfeed.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WatchFeedcontroller.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WeatherController.php" />
@@ -168,6 +162,7 @@
         <option value="$PROJECT_DIR$/resources/views/sendfeed.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/maket.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/watchidfeed.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -257,7 +252,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="134" />
     <option name="y" value="319" />
     <option name="width" value="1395" />
@@ -379,12 +374,12 @@
       <workItem from="1555925320947" duration="20791000" />
       <workItem from="1556099539707" duration="7597000" />
       <workItem from="1556231009947" duration="214000" />
-      <workItem from="1556279233212" duration="17386000" />
+      <workItem from="1556279233212" duration="17783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81628000" />
+    <option name="totallyTimeSpent" value="82025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
@@ -593,16 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="e#8#21#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -760,6 +745,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="90" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+          <folding>
+            <element signature="e#8#21#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
